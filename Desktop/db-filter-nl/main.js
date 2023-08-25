@@ -127,30 +127,8 @@ const filtrador = (s, n) => {
 				newArr[i].includes("registration") ||
 				newArr[i].includes("register") ||
 				newArr[i].includes("request") ||
-				newArr[i].includes("idhabbo") ||
-				newArr[i].includes("index") ||
-				newArr[i].includes("ixhabbo") ||
-				newArr[i].includes("beatshabbo") ||
-				newArr[i].includes("resetIdentity") ||
-				newArr[i].includes("kihabbo") ||
-				newArr[i].includes("goldhabbo") ||
-				newArr[i].includes("ibehabbo") ||
-				newArr[i].includes("oldhabbo") ||
-				newArr[i].includes("ophabbo") ||
-				newArr[i].includes("pracas.exbr") ||
-				newArr[i].includes("spacehabbo") ||
-				newArr[i].includes("otelhabbu") ||
-				newArr[i].includes(".com.tr") ||
-				newArr[i].includes("ghthabbo") ||
-				newArr[i].includes("registro") ||
-				newArr[i].includes("powerhabbo") ||
-				newArr[i].includes("Kingturo19") ||
 				!newArr[i].includes("@") ||
-				!newArr[i].includes(".com") ||
-				newArr[i].includes("UNKNOWN") ||
-				newArr[i].includes("hotelplaza") ||
-				newArr[i].includes("hotgmail") ||
-				newArr[i].includes(".com.br")
+				!newArr[i].includes("habbo.nl")
 			)
 		) {
 			filterArr.push(newArr[i]);
@@ -163,30 +141,7 @@ const filtrador = (s, n) => {
 				newArr2[i].includes("registration") ||
 				newArr2[i].includes("register") ||
 				newArr2[i].includes("request") ||
-				newArr2[i].includes("idhabbo") ||
-				newArr2[i].includes("index") ||
-				newArr2[i].includes("ixhabbo") ||
-				newArr2[i].includes("beatshabbo") ||
-				newArr2[i].includes("resetIdentity") ||
-				newArr2[i].includes("kihabbo") ||
-				newArr2[i].includes("goldhabbo") ||
-				newArr2[i].includes("ibehabbo") ||
-				newArr2[i].includes("Kingturo19") ||
-				newArr2[i].includes("oldhabbo") ||
-				newArr2[i].includes("ophabbo") ||
-				newArr2[i].includes("pracas.exbr") ||
-				newArr2[i].includes("spacehabbo") ||
-				newArr2[i].includes("otelhabbu") ||
-				newArr2[i].includes(".com.tr") ||
-				newArr2[i].includes("ghthabbo") ||
-				newArr2[i].includes("registro") ||
-				newArr2[i].includes("powerhabbo") ||
-				!newArr2[i].includes("@") ||
-				!newArr2[i].includes(".com") ||
-				newArr2[i].includes("UNKNOWN") ||
-				newArr2[i].includes("hotelplaza") ||
-				newArr2[i].includes("hotgmail") ||
-				newArr2[i].includes(".com.br")
+				!newArr2[i].includes("@")
 			)
 		) {
 			filterArr2.push(newArr2[i]);
